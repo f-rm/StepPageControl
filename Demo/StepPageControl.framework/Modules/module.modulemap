@@ -1,0 +1,11 @@
+framework module StepPageControl {
+  umbrella header "StepPageControl.h"
+
+  export *
+  module * { export * }
+}
+
+module StepPageControl.Swift {
+    header "StepPageControl-Swift.h"
+    requires objc
+}
